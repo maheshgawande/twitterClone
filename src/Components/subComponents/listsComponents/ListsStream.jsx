@@ -8,9 +8,9 @@ const ListsStream = () => {
   return (
     <div className="stream">
       <Switch>
-        <Route path="/i/lists" exact component={Owned} />
-        <Route path="/i/subscriptions" exact component={Subscriptions} />
-        <Route path="/i/membership" exact component={Membership} />
+        <Route path="/i/lists/subscriptions" component={Subscriptions} />
+        <Route path="/i/lists/membership" component={Membership} />
+        <Route path="/i/lists" component={Owned} />
       </Switch>
     </div>
   );

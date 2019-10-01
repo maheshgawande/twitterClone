@@ -7,8 +7,8 @@ const NotificationsStream = () => {
   return (
     <div className="stream">
       <Switch>
+        <Route path="/notifications/mentions" component={Mentions} />
         <Route path="/notifications" exact component={AllNotifications} />
-        <Route path="/mentions" exact component={Mentions} />
       </Switch>
     </div>
   );

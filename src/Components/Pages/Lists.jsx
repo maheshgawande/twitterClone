@@ -10,17 +10,14 @@ import Follow from "Components/mainComponents/mainAside/Follow";
 import Footer from "Components/mainComponents/mainAside/Footer";
 import ListLogo from "assets/ListLogo";
 import "Styles/Lists.css";
-import { BrowserRouter as Router } from "react-router-dom";
 
 const Lists = () => {
   return (
     <div className="main-container lists-container">
       <section>
         <SectionHeader name="Lists" username="@username" logo={<ListLogo />} />
-        <Router>
-          <SectionMiddle data={<ListsSectionMiddle />} />
-          <Stream data={<ListsStream />} />
-        </Router>
+        <SectionMiddle data={<ListsSectionMiddle />} />
+        <Stream data={<ListsStream />} />
       </section>
 
       <aside>

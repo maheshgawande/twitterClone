@@ -13,7 +13,11 @@ const NotificationsSectionMiddle = () => {
         >
           All
         </NavLink>
-        <NavLink to="/mentions" className="a" activeClassName={"active-link"}>
+        <NavLink
+          to="/notifications/mentions"
+          className="a"
+          activeClassName={"active-link"}
+        >
           Mentions
         </NavLink>
       </div>

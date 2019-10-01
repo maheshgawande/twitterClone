@@ -18,13 +18,13 @@ function App() {
         <main>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/home" exact component={Home} />
-            <Route path="/explore" exact component={Explore} />
-            <Route path="/notifications" exact component={Notifications} />
-            <Route path="/messages" exact component={Messages} />
-            <Route path="/i/bookmarks" exact component={Bookmarks} />
-            <Route path="/i/lists" exact component={Lists} />
-            <Route path="/userName" exact component={Profile} />
+            <Route path="/home" component={Home} />
+            <Route path="/explore" component={Explore} />
+            <Route path="/notifications" component={Notifications} />
+            <Route path="/messages" component={Messages} />
+            <Route path="/i/bookmarks" component={Bookmarks} />
+            <Route path="/i/lists" component={Lists} />
+            <Route path="/userName" component={Profile} />
             <Route component={Error404} />
           </Switch>
         </main>

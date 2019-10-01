@@ -9,14 +9,14 @@ const ListsSectionMiddle = () => {
           All
         </NavLink>
         <NavLink
-          to="/i/subscriptions"
+          to="/i/lists/subscriptions"
           className="a"
           activeClassName={"active-link"}
         >
           Subscriptions
         </NavLink>
         <NavLink
-          to="/i/membership"
+          to="/i/lists/membership"
           className="a"
           activeClassName={"active-link"}
         >
