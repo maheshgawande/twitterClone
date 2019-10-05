@@ -6,19 +6,19 @@ const ExploreSectionMiddle = () => {
   return (
     <div className="section-middle">
       <div className="nav">
-        <NavLink to="/bookmarks" className="a" activeClassName={"acive-link"}>
+        <NavLink to="/explore" className="a" activeClassName={"acive-link"}>
           For you
         </NavLink>
-        <NavLink to="/bookmarks" className="a" activeClassName={"acive-link"}>
+        <NavLink to="/explore" className="a" activeClassName={"acive-link"}>
           News
         </NavLink>
-        <NavLink to="/bookmarks" className="a" activeClassName={"acive-link"}>
+        <NavLink to="/explore" className="a" activeClassName={"acive-link"}>
           Sports
         </NavLink>
-        <NavLink to="/bookmarks" className="a" activeClassName={"acive-link"}>
+        <NavLink to="/explore" className="a" activeClassName={"acive-link"}>
           Fun
         </NavLink>
-        <NavLink to="/bookmarks" className="a" activeClassName={"acive-link"}>
+        <NavLink to="/explore" className="a" activeClassName={"acive-link"}>
           Entertainment
         </NavLink>
       </div>
