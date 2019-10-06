@@ -5,7 +5,12 @@ const ListsSectionMiddle = () => {
   return (
     <div className="section-middle">
       <div className="nav">
-        <NavLink to="/i/lists" className="a" activeClassName={"active-link"}>
+        <NavLink
+          to="/i/lists"
+          className="a"
+          activeClassName={"active-link"}
+          exact={true}
+        >
           All
         </NavLink>
         <NavLink

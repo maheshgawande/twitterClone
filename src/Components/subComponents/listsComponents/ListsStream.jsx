@@ -6,7 +6,7 @@ import { Route, Switch } from "react-router-dom";
 
 const ListsStream = () => {
   return (
-    <div className="stream">
+    <div className="default">
       <Switch>
         <Route path="/i/lists/subscriptions" component={Subscriptions} />
         <Route path="/i/lists/membership" component={Membership} />

@@ -2,6 +2,9 @@
   padding: 0 4px;
   border: none;
 }
+.lists-container .section-middle-container {
+  border-bottom: solid var(--primary-border-color) 1px;
+}
 .lists-container .section-middle {
   padding: 0;
   margin: 0;

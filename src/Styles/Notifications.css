@@ -1,3 +1,6 @@
+.notifications .section-middle-container {
+  border-bottom: solid var(--primary-border-color) 1px;
+}
 .notifications .section-middle {
   padding: 0;
   margin: 0;

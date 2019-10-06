@@ -10,6 +10,7 @@ const NotificationsSectionMiddle = () => {
           to="/notifications"
           className="a"
           activeClassName={"active-link"}
+          exact={true}
         >
           All
         </NavLink>

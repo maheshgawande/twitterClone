@@ -111,7 +111,7 @@ main svg {
 /*----- Main-section CSS -----*/
 section {
   width: 600px;
-  height: 100%;
+  min-height: 100vh;
   border-left: solid var(--primary-border-color) 1px;
   border-right: solid var(--primary-border-color) 1px;
 }
@@ -149,13 +149,15 @@ section {
   padding: 5px 15px;
 }
 
-/*- tweet-stream -*/
+/*- section-middle -*/
+.section-middle-container {
+  border-bottom: solid rgba(255, 255, 255, 0.1) 10px;
+}
 .section-middle {
   margin-top: 10px;
   padding: 0 15px;
   display: flex;
   justify-content: flex-start;
-  border-bottom: solid rgba(255, 255, 255, 0.1) 10px;
 }
 .section-middle .a {
   color: rgba(255, 255, 255, 0.5);
@@ -392,6 +394,15 @@ section {
 }
 .likes-btn:hover .a {
   background-color: #2a1a23;
+}
+/* section default */
+.stream-container .default {
+  margin: 40px 20px;
+  text-align: center;
+}
+.stream-container .default p {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /*----- Main-aside CSS -----*/

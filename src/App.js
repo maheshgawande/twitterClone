@@ -26,7 +26,7 @@ function App() {
               <Redirect to="/home" />
             </Route>
             <Route path="/home" component={Home} />
-            <Route path="/explore" component={Explore} />
+            <Route path="/explore" component={Explore} />]
             <Route path="/notifications" component={Notifications} />
             <Route path="/messages" component={Messages} />
             <Route path="/i/bookmarks" component={Bookmarks} />

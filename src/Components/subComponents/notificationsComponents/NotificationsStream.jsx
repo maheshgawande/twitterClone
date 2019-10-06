@@ -6,7 +6,7 @@ import { Route, Switch } from "react-router-dom";
 
 const NotificationsStream = () => {
   return (
-    <div className="stream">
+    <div className="default">
       <Switch>
         <Route path="/notifications/mentions" exact component={Mentions} />
         <Route path="/notifications" exact component={AllNotifications} />

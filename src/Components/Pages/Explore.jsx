@@ -8,17 +8,14 @@ import Follow from "Components/mainComponents/mainAside/Follow";
 import Footer from "Components/mainComponents/mainAside/Footer";
 import Search from "Components/mainComponents/mainAside/Search";
 import SettingLogo from "assets/SettingLogo";
-import { BrowserRouter as Router } from "react-router-dom";
 
 const Explore = () => {
   return (
     <div className="main-container explore">
       <section>
         <SectionHeader name={<Search />} logo={<SettingLogo />} />
-        <Router>
-          <SectionMiddle data={<ExploreSectionMiddle />} />
-          <Stream data={<ExploreStream />} />
-        </Router>
+        <SectionMiddle data={<ExploreSectionMiddle />} />
+        <Stream data={<ExploreStream />} />
       </section>
       <aside>
         <Follow />
