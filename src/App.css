@@ -18,13 +18,13 @@ header {
   flex-grow: 1;
   font-size: 19px;
   font-weight: bold;
-  position: sticky;
-  top: 0;
 }
 .header-container {
   width: 275px;
   height: 100%;
   padding: 0 14px 0 10px;
+  position: fixed;
+  overflow-y: auto;
 }
 .header-img {
   width: 1.64rem;
