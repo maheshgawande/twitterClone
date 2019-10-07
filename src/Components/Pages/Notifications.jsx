@@ -14,7 +14,7 @@ const Notifications = () => {
   return (
     <div className="main-container notifications">
       <section>
-        <SectionHeader name="Notifications" logo={<SettingLogo />} />
+        <SectionHeader heading="Notifications" logo={<SettingLogo />} />
         <SectionMidle data={<NotificationsSectionMiddle />} />
         <Stream data={<NotificationsStream />} />
       </section>

@@ -15,7 +15,11 @@ const Lists = () => {
   return (
     <div className="main-container lists-container">
       <section>
-        <SectionHeader name="Lists" username="@username" logo={<ListLogo />} />
+        <SectionHeader
+          heading="Lists"
+          subText="@username"
+          logo={<ListLogo />}
+        />
         <SectionMiddle data={<ListsSectionMiddle />} />
         <Stream data={<ListsStream />} />
       </section>

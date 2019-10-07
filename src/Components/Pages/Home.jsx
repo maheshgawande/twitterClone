@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="main-container">
       <section>
-        <SectionHeader name="Home" logo={<HomeLogo />} />
+        <SectionHeader heading="Home" logo={<HomeLogo />} />
         <SectionMiddle data={<HomeSectionMiddle />} />
         <Stream data={<HomeStream />} />
       </section>

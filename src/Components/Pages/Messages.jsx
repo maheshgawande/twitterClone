@@ -11,7 +11,7 @@ const Messages = () => {
   return (
     <div className="main-container messages">
       <section>
-        <SectionHeader name="Messages" logo={<MessageLogo />} />
+        <SectionHeader heading="Messages" logo={<MessageLogo />} />
         <SectionMiddle data={<Search />} />
         <Stream data={<Default />} />
       </section>

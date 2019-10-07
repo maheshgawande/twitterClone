@@ -138,7 +138,7 @@ section {
 .section-header .a {
   margin: 8px 12px;
 }
-.section-header .username {
+.section-header .subText {
   font-weight: 100;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);

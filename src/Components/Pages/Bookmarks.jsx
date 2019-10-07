@@ -11,7 +11,7 @@ const Bookmarks = () => {
   return (
     <div className="main-container bookmarks-container">
       <section>
-        <SectionHeader name="Bookmarks" username="@username" />
+        <SectionHeader heading="Bookmarks" subText="@username" />
         <Stream data={<BookmarksStream />} />
       </section>
 

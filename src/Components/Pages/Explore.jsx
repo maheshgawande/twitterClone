@@ -13,7 +13,7 @@ const Explore = () => {
   return (
     <div className="main-container explore">
       <section>
-        <SectionHeader name={<Search />} logo={<SettingLogo />} />
+        <SectionHeader heading={<Search />} logo={<SettingLogo />} />
         <SectionMiddle data={<ExploreSectionMiddle />} />
         <Stream data={<ExploreStream />} />
       </section>
