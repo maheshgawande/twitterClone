@@ -9,10 +9,11 @@ import Trends from "Components/mainComponents/mainAside/Trends";
 import Follow from "Components/mainComponents/mainAside/Follow";
 import Footer from "Components/mainComponents/mainAside/Footer";
 import HomeLogo from "assets/HomeLogo";
+import "Styles/Home.css";
 
 const Home = () => {
   return (
-    <div className="main-container">
+    <div className="main-container home">
       <section>
         <SectionHeader heading="Home" logo={<HomeLogo />} />
         <SectionMiddle data={<HomeSectionMiddle />} />
