@@ -349,9 +349,17 @@ section {
   margin: 40px 20px;
   text-align: center;
 }
-.stream-container .default p {
-  margin-top: 5px;
+.stream-container .default .heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--dark-theme-color);
+}
+.stream-container .default .subText {
+  margin-top: 8px;
   color: rgba(255, 255, 255, 0.4);
+}
+.stream-container .btn-container {
+  margin-top: 10px;
 }
 
 /*----- Main-aside CSS -----*/

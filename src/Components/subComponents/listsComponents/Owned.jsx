@@ -1,11 +1,16 @@
 import React from "react";
+import Default from "Components/subComponents/Default";
 
 const Owned = () => {
+  let defaultHeading = "You haven’t created any Lists yet";
+  let defaultSubText = "When you do, it’ll show up here.";
+
   return (
-    <div>
-      <h1>You haven’t created any Lists yet</h1>
-      <p>When you do, it’ll show up here.</p>
-    </div>
+    <Default
+      heading={`${defaultHeading}`}
+      subText={`${defaultSubText}`}
+      btnText="Create a list"
+    />
   );
 };
 

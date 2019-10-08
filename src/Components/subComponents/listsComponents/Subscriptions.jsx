@@ -1,11 +1,12 @@
 import React from "react";
+import Default from "Components/subComponents/Default";
 
 const Subscriptions = () => {
+  let defaultHeading = "You haven’t subscribed to any Lists yet";
+  let DefaultSubText = "When you do, it’ll show up here.";
+
   return (
-    <div>
-      <h1>You haven’t subscribed to any Lists yet</h1>
-      <p>When you do, it’ll show up here.</p>
-    </div>
+    <Default heading={`${defaultHeading}`} subText={`${DefaultSubText}`} />
   );
 };
 

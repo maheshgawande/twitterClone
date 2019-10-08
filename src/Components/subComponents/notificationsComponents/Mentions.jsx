@@ -1,11 +1,12 @@
 import React from "react";
+import Default from "Components/subComponents/Default";
 
 const Mentions = () => {
+  let defaultHeading = "Nothing to see here --- yet";
+  let DefaultSubText = "When someone mentions you, you’ll find it here.";
+
   return (
-    <div className="default">
-      <h2>Nothing to see here --- yet</h2>
-      <p>When someone mentions you, you’ll find it here.</p>
-    </div>
+    <Default heading={`${defaultHeading}`} subText={`${DefaultSubText}`} />
   );
 };
 

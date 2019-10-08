@@ -28,6 +28,9 @@
 .profile .avatar-container {
   margin-top: -18%;
 }
+.profile .avatar {
+  border: solid var(--dark-theme-bg) 4px;
+}
 .profile .avatar img {
   width: 132px;
   height: 132px;

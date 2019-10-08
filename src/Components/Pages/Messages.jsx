@@ -4,7 +4,7 @@ import SectionMiddle from "Components/mainComponents/mainSection/SectionMiddle";
 import Stream from "Components/mainComponents/mainSection/Stream";
 import MessageLogo from "assets/MessageLogo";
 import Search from "Components/mainComponents/mainAside/Search";
-import Default from "Components/subComponents/messagesComponents/Default";
+import Default from "Components/subComponents/messagesComponents/MessagesStream";
 import "Styles/Messages.css";
 
 const Messages = () => {

@@ -6,7 +6,11 @@ const Media = () => {
   let defaultSubText =
     "When you send Tweets with photos or videos in them, it will show up here.";
   return (
-    <Default heading={`${defaultHeading}`} subText={`${defaultSubText}`} />
+    <Default
+      heading={`${defaultHeading}`}
+      subText={`${defaultSubText}`}
+      btnText="Tweet a photo or video"
+    />
   );
 };
 

@@ -1,11 +1,11 @@
 import React from "react";
+import Default from "Components/subComponents/Default";
 
 const BookmarksStream = () => {
+  let defaultHeading = "You haven’t added any Tweets to your Bookmarks yet";
+  let defaultSubText = "When you do, they’ll show up here.";
   return (
-    <div className="default">
-      <h3>You haven’t added any Tweets to your Bookmarks yet</h3>
-      <p>When you do, they’ll show up here.</p>
-    </div>
+    <Default heading={`${defaultHeading}`} subText={`${defaultSubText}`} />
   );
 };
 

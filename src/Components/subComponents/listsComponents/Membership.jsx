@@ -1,11 +1,12 @@
 import React from "react";
+import Default from "Components/subComponents/Default";
 
 const Membership = () => {
+  let defaultHeading = "You haven’t been added to any Lists yet";
+  let defaultSubText = "When someone adds you to a List, it’ll show up here.";
+
   return (
-    <div>
-      <h1>You haven’t been added to any Lists yet</h1>
-      <p>When someone adds you to a List, it’ll show up here.</p>
-    </div>
+    <Default heading={`${defaultHeading}`} subText={`${defaultSubText}`} />
   );
 };
 

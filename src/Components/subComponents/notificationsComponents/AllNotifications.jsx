@@ -1,14 +1,13 @@
 import React from "react";
+import Default from "Components/subComponents/Default";
 
 const AllNotifications = () => {
+  let defaultHeading = "Nothing to see here --- yet";
+  let DefaultSubText =
+    "From likes to Retweets and a whole lot more, this is where all the action happens.";
+
   return (
-    <div className="default">
-      <h2>Nothing to see here --- yet</h2>
-      <p>
-        From likes to Retweets and a whole lot more, this is where all the
-        action happens.
-      </p>
-    </div>
+    <Default heading={`${defaultHeading}`} subText={`${DefaultSubText}`} />
   );
 };
 

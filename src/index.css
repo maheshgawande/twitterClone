@@ -89,6 +89,7 @@ img {
 .avatar {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
 svg {
   fill: var(--dark-theme-color);
@@ -125,7 +126,7 @@ svg {
   height: 49px;
 }
 .btn-small {
-  padding: 8px 15px;
+  padding: 8px 14px;
 }
 .btn-round {
   padding: 10px 10px;
