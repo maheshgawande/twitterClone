@@ -8,8 +8,12 @@ const NotificationsStream = () => {
   return (
     <div className="default">
       <Switch>
-        <Route path="/notifications/mentions" exact component={Mentions} />
-        <Route path="/notifications" exact component={AllNotifications} />
+        <Route
+          path="/notifications"
+          exact={true}
+          component={AllNotifications}
+        />
+        <Route path="/notifications/mentions" component={Mentions} />
         <Route component={Error404} />
       </Switch>
     </div>
