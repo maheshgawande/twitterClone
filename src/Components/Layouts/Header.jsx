@@ -109,7 +109,7 @@ const Header = () => {
           >
             <div className="a">
               <div className="avatar">
-                <Avatar activeClassName={{ border: "#1da1f2" }} />
+                <Avatar />
               </div>
               <span>Profile</span>
             </div>

@@ -84,6 +84,9 @@ header .btn-container {
 .active-link svg {
   fill: var(--primary-color);
 }
+.active-link img {
+  border: solid var(--primary-color) 2px;
+}
 /*----- Main CSS -----*/
 main {
   width: 73%;
@@ -169,7 +172,7 @@ section {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 15px 25px;
+  padding: 15px;
   border-radius: 0;
   color: rgba(255, 255, 255, 0.4);
 }
