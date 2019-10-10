@@ -1,0 +1,91 @@
+.toast-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(33, 36, 38, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.toast {
+  z-index: 999;
+  min-width: 600px;
+  height: 90vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  background-color: var(--dark-theme-bg);
+  pointer-events: none;
+  user-select: none;
+}
+.toast-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: solid var(--primary-border-color) 2px;
+}
+.toast-header p {
+  width: 100%;
+  padding-left: 10px;
+  font-size: 19px;
+  font-weight: bold;
+}
+.toast-header .btn-container {
+  width: auto;
+  padding-right: 15px;
+}
+.toast-header .btn {
+  padding: 5px 15px;
+}
+.toast-body {
+  width: 100%;
+  height: 100%;
+}
+.toast-body .body {
+  width: 100%;
+  padding: 15px;
+}
+.toast-header .a-container,
+.toast-header .btn-container,
+.toast input {
+  pointer-events: all;
+}
+/*----- Trends setting CSS ------ */
+.toast-body .body label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: all;
+}
+.toast-body .body .label-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: var(--grey-color);
+}
+/*----- Message compose CSS -----*/
+.toast-body .compose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: #202327;
+}
+.toast-body .compose .a {
+  margin: 0;
+  padding: 10px;
+}
+.toast-body .compose svg {
+  width: 30px;
+  height: 18px;
+}
+.toast-body .compose input {
+  width: 100%;
+  padding: 10px 10px 10px 0;
+  border: none;
+  font-size: 15px;
+  color: var(--dark-theme-color);
+  background-color: transparent;
+}
