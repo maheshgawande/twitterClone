@@ -1,9 +1,9 @@
 import React from "react";
 
-const SettingLogo = () => {
+const HelpLogo = () => {
   return (
     <div className="a-container">
-      <a href="#Setting" className="a">
+      <a href="#help" className="a">
         <svg viewBox="0 0 24 24">
           <g>
             <path d="M12.025 22.75c-5.928 0-10.75-4.822-10.75-10.75S6.098 1.25 12.025 1.25 22.775 6.072 22.775 12s-4.822 10.75-10.75 10.75zm0-20c-5.1 0-9.25 4.15-9.25 9.25s4.15 9.25 9.25 9.25 9.25-4.15 9.25-9.25-4.15-9.25-9.25-9.25z"></path>
@@ -15,4 +15,4 @@ const SettingLogo = () => {
   );
 };
 
-export default SettingLogo;
+export default HelpLogo;

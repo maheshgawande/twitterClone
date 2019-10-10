@@ -1,6 +1,6 @@
 import React from "react";
 
-const MessageLogo = () => {
+const ListsLogo = () => {
   return (
     <div className="a-container">
       <a href="#list" className="a">
@@ -15,4 +15,4 @@ const MessageLogo = () => {
   );
 };
 
-export default MessageLogo;
+export default ListsLogo;
