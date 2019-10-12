@@ -7,10 +7,12 @@
   left: 0;
   z-index: 99;
 }
+/*----- Toast CSS -----*/
 .toast {
   z-index: 999;
   min-width: 600px;
   height: 90vh;
+  min-height: 400px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -20,6 +22,7 @@
   pointer-events: none;
   user-select: none;
 }
+/*- Toast-header CSS -*/
 .toast-header {
   width: 100%;
   display: flex;
@@ -40,14 +43,16 @@
 .toast-header .btn {
   padding: 5px 15px;
 }
+/*- Toast-body CSS -*/
 .toast-body {
   width: 100%;
   height: 100%;
+  padding: 8px 15px;
 }
 .toast-body .body {
   width: 100%;
-  padding: 15px;
 }
+/*----*/
 .toast-header .a-container,
 .toast-header .btn-container,
 .toast input {
@@ -88,4 +93,51 @@
   font-size: 15px;
   color: var(--dark-theme-color);
   background-color: transparent;
+}
+/*- Create-list CSS -*/
+.toast-body .input-wrap {
+  width: 100%;
+  margin-bottom: 40px;
+  color: var(--grey-color);
+  position: relative;
+}
+.toast-body .input-wrap > input {
+  width: 100%;
+  height: 60px;
+  padding: 25px 8px 0 8px;
+  border: 0;
+  outline: none;
+  background-color: #15181c;
+  font-size: 18px;
+  color: var(--dark-theme-color);
+}
+.toast-body .input-wrap > .input-label {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: var(--primary-border-color);
+}
+.toast-body .label-content {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  font-size: 16px;
+  max-width: calc(100% - (2 * 8px));
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.toast-body .input-wrap .counter {
+  position: absolute;
+  bottom: -15;
+  right: 8px;
+}
+.toast-body .input-wrap > input:focus + .input-label > .label-content,
+.toast-body .input-wrap > input:focus + .input-label {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
 }

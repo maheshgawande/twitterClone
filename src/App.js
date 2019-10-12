@@ -11,6 +11,7 @@ import Profile from "Components/Pages/Profile";
 import Toast from "Components/subComponents/Toast";
 import TrendsSettingBody from "Components/subComponents/TrendsSetting";
 import Compose from "Components/subComponents/messagesComponents/Compose";
+import CreateLists from "Components/subComponents/listsComponents/CreateLists";
 import Error404 from "Components/Pages/Error404";
 
 function App() {
@@ -33,6 +34,16 @@ function App() {
             />
             <Route path="/i/bookmarks" component={Bookmarks} />
             <Route path="/i/lists" component={Lists} />
+            <Route
+              path="/lists/create"
+              component={() => (
+                <Toast
+                  header="Create new List"
+                  btnText="Next"
+                  body={<CreateLists />}
+                />
+              )}
+            />
             <Route path="/userName" component={Profile} />
             <Route
               path="/settings/trends"
