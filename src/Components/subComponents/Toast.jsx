@@ -2,7 +2,7 @@ import React from "react";
 import CrossLogo from "assets/CrossLogo";
 import "Styles/Toast.css";
 
-const TrendsSetting = ({ header, body, btnText }) => {
+const Toast = ({ header, body, btnText }) => {
   return (
     <div className="toast-container">
       <div className="toast">
@@ -25,4 +25,4 @@ const TrendsSetting = ({ header, body, btnText }) => {
   );
 };
 
-export default TrendsSetting;
+export default Toast;

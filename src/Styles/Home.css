@@ -54,11 +54,18 @@
   padding: 8px 8px;
 }
 .home .text-counter {
-  width: 20px;
-  height: 20px;
-  background-color: transparent;
-  border-radius: 50%;
-  border: solid var(--primary-border-color) 2px;
+  width: 24px;
+  height: 24px;
+}
+.home .text-counter .main-circle {
+  stroke: var(--primary-border-color);
+  stroke-width: 2px;
+  fill: transparent;
+}
+.home .text-counter .overlay-circle {
+  transition: 100ms stroke-dashoffset;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
 }
 .home .separater {
   width: 2px;

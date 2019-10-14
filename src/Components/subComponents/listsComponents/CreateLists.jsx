@@ -12,6 +12,9 @@ const CreateLists = () => {
     setDesValue(e.target.value);
   };
 
+  let nameWordCount = nameValue.length;
+  let desWordCount = desValue.length;
+
   return (
     <div>
       <div className="input-wrap">
@@ -27,7 +30,7 @@ const CreateLists = () => {
         <label className="input-label">
           <span className="label-content">Name</span>
         </label>
-        <div className="counter">{nameValue.length}/25</div>
+        <div className="counter">{nameWordCount}/25</div>
       </div>
 
       <div className="input-wrap">
@@ -42,7 +45,7 @@ const CreateLists = () => {
         <label className="input-label">
           <span className="label-content">Description</span>
         </label>
-        <div className="counter">{desValue.length}/100</div>
+        <div className="counter">{desWordCount}/100</div>
       </div>
 
       <div className="body">

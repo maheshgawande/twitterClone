@@ -1,7 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import Avatar from "assets/Avatar";
 
 const HomeSectionMiddle = () => {
+  const [value, setValue] = useState("");
+
+  const updateValue = e => {
+    setValue(e.target.value);
+  };
+  let wordCount = value.length;
+
+  let circumference = 10 * 2 * Math.PI;
+  const circleStyle = {
+    strokeDasharray: `${circumference} ${circumference}`,
+    strokeDashoffset: `${circumference}`
+  };
+  const setProgress = percent => {
+    const offset = circumference - (percent / 140) * circumference;
+    circleStyle.strokeDashoffset = offset;
+  };
+  setProgress(wordCount);
+  if (wordCount < 101 && wordCount > -1) {
+    setProgress(wordCount);
+  }
+
   return (
     <div className="section-middle">
       <div className="avatar-container">
@@ -14,11 +35,12 @@ const HomeSectionMiddle = () => {
           <textarea
             id="text"
             maxLength="140"
-            name="tweet"
+            name="tweet-text"
             rows="1"
             placeholder="What's happening?"
             autoComplete="off"
             spellCheck="false"
+            onChange={updateValue}
             autoFocus
           ></textarea>
         </div>
@@ -68,7 +90,25 @@ const HomeSectionMiddle = () => {
           </div>
           <div className="utility-right">
             <div className="text-counter-container">
-              <div className="text-counter"></div>
+              <svg
+                viewBox="0 0 24 24"
+                className="text-counter"
+                refs="text-counter"
+              >
+                <circle className="main-circle" r="10" cx="12" cy="12" />
+                <circle
+                  className="overlay-circle"
+                  stroke="#1da1f2"
+                  strokeWidth="2"
+                  fill="transparent"
+                  r="10"
+                  cx="12"
+                  cy="12"
+                  strokeDasharray="62.8 62.8"
+                  strokeDashoffset="62.8"
+                  style={circleStyle}
+                />
+              </svg>
             </div>
             <div className="separater"></div>
             <div className="tweet-add">
