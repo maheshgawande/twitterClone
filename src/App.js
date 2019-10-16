@@ -12,6 +12,7 @@ import Toast from "Components/subComponents/Toast";
 import TrendsSettingBody from "Components/subComponents/TrendsSetting";
 import Compose from "Components/subComponents/messagesComponents/Compose";
 import CreateLists from "Components/subComponents/listsComponents/CreateLists";
+import ProfileSetting from "Components/subComponents/profileComponents/ProfileSetting";
 import Error404 from "Components/Pages/Error404";
 
 function App() {
@@ -21,10 +22,13 @@ function App() {
         <Header />
         <main>
           <Switch>
+            {/* Home */}
             <Route path="/" exact component={Home} />
             <Route path="/home" component={Home} />
-            <Route path="/explore" component={Explore} />]
+            {/* Explore */}
+            <Route path="/explore" component={Explore} />]{/* Notification */}
             <Route path="/notifications" component={Notifications} />
+            {/* Messages */}
             <Route path="/messages" exact component={Messages} />
             <Route
               path="/messages/compose"
@@ -32,7 +36,9 @@ function App() {
                 <Toast header="New message" btnText="Next" body={<Compose />} />
               )}
             />
+            {/* Bookmarks */}
             <Route path="/i/bookmarks" component={Bookmarks} />
+            {/* Lists */}
             <Route path="/i/lists" component={Lists} />
             <Route
               path="/lists/create"
@@ -44,13 +50,26 @@ function App() {
                 />
               )}
             />
+            {/* Profile */}
             <Route path="/userName" component={Profile} />
+            <Route
+              path="/settings/profile"
+              component={() => (
+                <Toast
+                  header="Edit Profile"
+                  btnText="Save"
+                  body={<ProfileSetting />}
+                />
+              )}
+            />
+            {/* Trends */}
             <Route
               path="/settings/trends"
               component={() => (
                 <Toast header="Trends" body={<TrendsSettingBody />} />
               )}
             />
+            {/* Error 404 */}
             <Route component={Error404} />
           </Switch>
         </main>

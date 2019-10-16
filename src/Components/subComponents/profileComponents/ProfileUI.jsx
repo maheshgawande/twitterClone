@@ -1,6 +1,7 @@
 import React from "react";
 import ProfileLogo from "assets/img/profile_normal.png";
 import BannerImg from "assets/img/404-bg-img.jpg";
+import { NavLink } from "react-router-dom";
 
 const ProfileUI = () => {
   return (
@@ -18,9 +19,9 @@ const ProfileUI = () => {
             </div>
           </a>
           <div className="edit-profile-btn">
-            <a href="#edit" className="a">
+            <NavLink to="/settings/profile" className="a">
               Edit profile
-            </a>
+            </NavLink>
           </div>
         </div>
         <div className="user-name-container">
