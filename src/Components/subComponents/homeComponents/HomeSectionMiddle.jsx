@@ -6,6 +6,8 @@ const HomeSectionMiddle = () => {
 
   const updateValue = e => {
     setValue(e.target.value);
+    e.target.style.height = "auto";
+    e.target.style.height = e.target.scrollHeight + "px";
   };
   let wordCount = value.length;
 
