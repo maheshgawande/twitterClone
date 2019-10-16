@@ -41,7 +41,6 @@ header .avatar img {
 }
 .twitter-logo .a {
   padding: 8px;
-  border-radius: 50%;
 }
 .twitter-logo .a:hover {
   background-color: var(--dark-theme-primary-bg);
@@ -59,8 +58,9 @@ header .avatar img {
 .header-nav .a-container {
   width: 100%;
 }
-.header-nav .a {
-  border-radius: 50px;
+.header-nav .a-container .a,
+.header-nav .a-container svg {
+  transition: all 0.1s ease-in-out;
 }
 .header-nav .a-container:hover .a,
 .header-nav .a-container:focus .a {
@@ -175,9 +175,10 @@ section {
   padding: 15px;
   border-radius: 0;
   color: rgba(255, 255, 255, 0.4);
+  border-bottom: solid transparent 2px;
 }
 .section-middle .active-link {
-  border-bottom: solid #1da1f2;
+  border-bottom: solid var(--primary-color) 2px !important;
 }
 /* section default */
 .stream-container .default {
@@ -227,9 +228,10 @@ aside {
   font-size: 16px;
   color: var(--dark-theme-color);
   background-color: #202327;
+  border: solid transparent 1px;
 }
 .search input:focus {
-  border: solid var(--primary-color) 1px;
+  border-color: var(--primary-color);
 }
 aside .search-container {
   margin-bottom: 10px;

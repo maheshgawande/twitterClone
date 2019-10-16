@@ -212,6 +212,7 @@
 }
 .tweet-action .a {
   padding: 8px;
+  transition: all 0.2s ease-in-out;
 }
 .tweet-action-btn {
   cursor: pointer;
