@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.39d5dcf0.chunk.css",
-    "main.js": "/static/js/main.24dfac2e.chunk.js",
-    "main.js.map": "/static/js/main.24dfac2e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d3117c58.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d3117c58.js.map",
-    "static/js/2.9de6e616.chunk.js": "/static/js/2.9de6e616.chunk.js",
-    "static/js/2.9de6e616.chunk.js.map": "/static/js/2.9de6e616.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7479c546ab32dc70af3c1bb2418c7373.js": "/precache-manifest.7479c546ab32dc70af3c1bb2418c7373.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.39d5dcf0.chunk.css.map": "/static/css/main.39d5dcf0.chunk.css.map",
-    "static/media/404-bg-img.jpg": "/static/media/404-bg-img.cb1865c2.jpg",
-    "static/media/profile_normal.png": "/static/media/profile_normal.5671bf45.png"
+    "main.css": "/twitterClone/static/css/main.89d0245f.chunk.css",
+    "main.js": "/twitterClone/static/js/main.4d0d9ec0.chunk.js",
+    "main.js.map": "/twitterClone/static/js/main.4d0d9ec0.chunk.js.map",
+    "runtime-main.js": "/twitterClone/static/js/runtime-main.74f128f6.js",
+    "runtime-main.js.map": "/twitterClone/static/js/runtime-main.74f128f6.js.map",
+    "static/js/2.c4c89a5b.chunk.js": "/twitterClone/static/js/2.c4c89a5b.chunk.js",
+    "static/js/2.c4c89a5b.chunk.js.map": "/twitterClone/static/js/2.c4c89a5b.chunk.js.map",
+    "index.html": "/twitterClone/index.html",
+    "precache-manifest.cc24e9e09fd6d9c4eee6a7ec1e0eca6f.js": "/twitterClone/precache-manifest.cc24e9e09fd6d9c4eee6a7ec1e0eca6f.js",
+    "service-worker.js": "/twitterClone/service-worker.js",
+    "static/css/main.89d0245f.chunk.css.map": "/twitterClone/static/css/main.89d0245f.chunk.css.map",
+    "static/media/404-bg-img.jpg": "/twitterClone/static/media/404-bg-img.cb1865c2.jpg",
+    "static/media/media.jpg": "/twitterClone/static/media/media.9c465b0b.jpg",
+    "static/media/profile_normal.png": "/twitterClone/static/media/profile_normal.5671bf45.png"
   }
 }
