@@ -18,7 +18,7 @@ import Error404 from "Components/Pages/Error404";
 function App() {
   return (
     <div className="container">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Header />
         <main>
           <Switch>
