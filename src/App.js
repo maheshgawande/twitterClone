@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import Header from "Components/Layouts/Header";
 import Home from "Components/Pages/Home";
 import Explore from "Components/Pages/Explore";
@@ -23,7 +28,9 @@ function App() {
         <main>
           <Switch>
             {/* Home */}
-            <Route path="/" exact component={Home} />
+            <Route path="/" exact>
+              <Redirect to="/home" />
+            </Route>
             <Route path="/home" component={Home} />
             {/* Explore */}
             <Route path="/explore" component={Explore} />]{/* Notification */}
