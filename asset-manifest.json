@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/twitterClone/static/css/main.81a426a3.chunk.css",
-    "main.js": "/twitterClone/static/js/main.b9699410.chunk.js",
-    "main.js.map": "/twitterClone/static/js/main.b9699410.chunk.js.map",
-    "runtime-main.js": "/twitterClone/static/js/runtime-main.74f128f6.js",
-    "runtime-main.js.map": "/twitterClone/static/js/runtime-main.74f128f6.js.map",
-    "static/js/2.c4c89a5b.chunk.js": "/twitterClone/static/js/2.c4c89a5b.chunk.js",
-    "static/js/2.c4c89a5b.chunk.js.map": "/twitterClone/static/js/2.c4c89a5b.chunk.js.map",
+    "main.css": "/twitterClone/static/css/main.588594fa.chunk.css",
+    "main.js": "/twitterClone/static/js/main.2a02c37b.chunk.js",
+    "main.js.map": "/twitterClone/static/js/main.2a02c37b.chunk.js.map",
+    "runtime-main.js": "/twitterClone/static/js/runtime-main.f9348a39.js",
+    "runtime-main.js.map": "/twitterClone/static/js/runtime-main.f9348a39.js.map",
+    "static/js/2.dc47f183.chunk.js": "/twitterClone/static/js/2.dc47f183.chunk.js",
+    "static/js/2.dc47f183.chunk.js.map": "/twitterClone/static/js/2.dc47f183.chunk.js.map",
     "index.html": "/twitterClone/index.html",
-    "precache-manifest.e7330095f1e6771c2db354a0a0ccc724.js": "/twitterClone/precache-manifest.e7330095f1e6771c2db354a0a0ccc724.js",
+    "precache-manifest.2d1154a0f6ec9445e244149e896096ca.js": "/twitterClone/precache-manifest.2d1154a0f6ec9445e244149e896096ca.js",
     "service-worker.js": "/twitterClone/service-worker.js",
-    "static/css/main.81a426a3.chunk.css.map": "/twitterClone/static/css/main.81a426a3.chunk.css.map",
+    "static/css/main.588594fa.chunk.css.map": "/twitterClone/static/css/main.588594fa.chunk.css.map",
+    "static/js/2.dc47f183.chunk.js.LICENSE.txt": "/twitterClone/static/js/2.dc47f183.chunk.js.LICENSE.txt",
     "static/media/404-bg-img.jpg": "/twitterClone/static/media/404-bg-img.cb1865c2.jpg",
     "static/media/media.jpg": "/twitterClone/static/media/media.9c465b0b.jpg",
     "static/media/profile_normal.png": "/twitterClone/static/media/profile_normal.5671bf45.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9348a39.js",
+    "static/js/2.dc47f183.chunk.js",
+    "static/css/main.588594fa.chunk.css",
+    "static/js/main.2a02c37b.chunk.js"
+  ]
 }
